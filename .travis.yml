@@ -1,0 +1,10 @@
+language: go
+
+go:
+	- 1.5
+	- tip
+
+before_install:
+	- echo "123"
+
+
