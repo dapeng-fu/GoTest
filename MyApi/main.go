@@ -1,8 +1,8 @@
 package main
 
 import (
-	_ "Users/dapeng/Desktop/temp/GoTest/MyApi/docs"
-	_ "Users/dapeng/Desktop/temp/GoTest/MyApi/routers"
+	_ "MyApi/docs"
+	_ "MyApi/routers"
 
 	"github.com/astaxie/beego"
 )

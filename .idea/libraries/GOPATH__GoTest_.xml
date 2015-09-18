@@ -1,0 +1,65 @@
+<component name="libraryTable">
+  <library name="GOPATH &lt;GoTest&gt;">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../app/y/server/go/src/benchmark" />
+      <root url="file://$PROJECT_DIR$/../../app/y/server/go/src/github.com" />
+      <root url="file://$PROJECT_DIR$/../../app/y/server/go/src/bitbucket.org" />
+      <root url="file://$PROJECT_DIR$/../../app/y/server/go/src/golang.org" />
+      <root url="file://$PROJECT_DIR$/../../app/y/server/go/src/yapi" />
+      <root url="file://$PROJECT_DIR$/../../app/y/server/go/src/.DS_Store" />
+      <root url="file://$PROJECT_DIR$/../../app/y/server/go/src/git.eclipse.org" />
+      <root url="file://$PROJECT_DIR$/../../app/y/server/go/src/mytest" />
+      <root url="file://$PROJECT_DIR$/../../app/y/server/go/src/testClient" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <excluded>
+      <root url="file://$PROJECT_DIR$/../../app/y/server/go/src/golang.org/x/tools/refactor/eg/testdata" />
+      <root url="file://$PROJECT_DIR$/../../app/y/server/go/src/github.com/astaxie/beego/.git" />
+      <root url="file://$PROJECT_DIR$" />
+      <root url="file://$PROJECT_DIR$/../../app/y/server/go/src/bitbucket.org/liamstask/goose/.git" />
+      <root url="file://$PROJECT_DIR$/../../app/y/server/go/src/github.com/go-sql-driver/mysql/.git" />
+      <root url="file://$PROJECT_DIR$/../../app/y/server/go/src/golang.org/x/tools/cmd/cover/testdata" />
+      <root url="file://$PROJECT_DIR$/../../app/y/server/go/src/github.com/smartystreets/assertions/.git" />
+      <root url="file://$PROJECT_DIR$/../../app/y/server/go/src/golang.org/x/tools/cmd/stringer/testdata" />
+      <root url="file://$PROJECT_DIR$/../../app/y/server/go/src/github.com/beego/bee/testdata" />
+      <root url="file://$PROJECT_DIR$/../../app/y/server/go/src/github.com/golang/lint/testdata" />
+      <root url="file://$PROJECT_DIR$/../../app/y/server/go/src/github.com/golang/lint/.git" />
+      <root url="file://$PROJECT_DIR$/../../app/y/server/go/src/golang.org/x/tools/go/types/testdata" />
+      <root url="file://$PROJECT_DIR$/../../app/y/server/go/src/github.com/kylelemons/go-gypsy/.git" />
+      <root url="file://$PROJECT_DIR$/../../app/y/server/go/src/golang.org/x/tools/go/ssa/interp/testdata" />
+      <root url="file://$PROJECT_DIR$/../../app/y/server/go/src/golang.org/x/net/.git" />
+      <root url="file://$PROJECT_DIR$/../../app/y/server/go/src/golang.org/x/tools/go/loader/testdata" />
+      <root url="file://$PROJECT_DIR$/../../app/y/server/go/src/golang.org/x/tools/.git" />
+      <root url="file://$PROJECT_DIR$/../../app/y/server/go/src/github.com/jtolds/gls/.git" />
+      <root url="file://$PROJECT_DIR$/../../app/y/server/go/src/golang.org/x/tools/oracle/testdata" />
+      <root url="file://$PROJECT_DIR$/../../app/y/server/go/src/github.com/nsf/gocode/_gccgo" />
+      <root url="file://$PROJECT_DIR$/../../app/y/server/go/src/github.com/beego/bee/.git" />
+      <root url="file://$PROJECT_DIR$/../../app/y/server/go/src/golang.org/x/tools/cmd/callgraph/testdata" />
+      <root url="file://$PROJECT_DIR$/../../app/y/server/go/src/github.com/nsf/gocode/_goremote" />
+      <root url="file://$PROJECT_DIR$/../../app/y/server/go/src/github.com/lib/pq/.git" />
+      <root url="file://$PROJECT_DIR$/../../app/y/server/go/src/golang.org/x/tools/cmd/vet/testdata" />
+      <root url="file://$PROJECT_DIR$/../../app/y/server/go/src/github.com/nsf/gocode/_testing" />
+      <root url="file://$PROJECT_DIR$/../../app/y/server/go/src/golang.org/x/tools/go/callgraph/cha/testdata" />
+      <root url="file://$PROJECT_DIR$/../../app/y/server/go/src/golang.org/x/tools/cmd/fiximports/testdata" />
+      <root url="file://$PROJECT_DIR$/../../app/y/server/go/src/github.com/dynport/gocloud/.git" />
+      <root url="file://$PROJECT_DIR$/../../app/y/server/go/src/golang.org/x/net/html/testdata" />
+      <root url="file://$PROJECT_DIR$/../../app/y/server/go/src/golang.org/x/tools/go/callgraph/rta/testdata" />
+      <root url="file://$PROJECT_DIR$/../../app/y/server/go/src/github.com/ziutek/mymysql/.git" />
+      <root url="file://$PROJECT_DIR$/../../app/y/server/go/src/golang.org/x/tools/go/pointer/testdata" />
+      <root url="file://$PROJECT_DIR$/../../app/y/server/go/src/golang.org/x/tools/go/ssa/ssautil/testdata" />
+      <root url="file://$PROJECT_DIR$/../../app/y/server/go/src/github.com/howeyc/fsnotify/.git" />
+      <root url="file://$PROJECT_DIR$/../../app/y/server/go/src/github.com/mattn/go-sqlite3/_example" />
+      <root url="file://$PROJECT_DIR$/../../app/y/server/go/src/golang.org/x/tools/go/gcimporter/testdata" />
+      <root url="file://$PROJECT_DIR$/../../app/y/server/go/src/github.com/nsf/gocode/.git" />
+      <root url="file://$PROJECT_DIR$/../../app/y/server/go/src/github.com/astaxie/beego/utils/testdata" />
+      <root url="file://$PROJECT_DIR$/../../app/y/server/go/src/golang.org/x/tools/go/gccgoimporter/testdata" />
+      <root url="file://$PROJECT_DIR$/../../app/y/server/go/src/github.com/mattn/go-sqlite3/.git" />
+      <root url="file://$PROJECT_DIR$/../../app/y/server/go/src/golang.org/x/net/html/charset/testdata" />
+      <root url="file://$PROJECT_DIR$/../../app/y/server/go/src/github.com/pborman/uuid/.git" />
+      <root url="file://$PROJECT_DIR$/../../app/y/server/go/src/github.com/smartystreets/goconvey/.git" />
+      <root url="file://$PROJECT_DIR$/../../app/y/server/go/src/golang.org/x/tools/go/ssa/testdata" />
+      <root url="file://$PROJECT_DIR$/../../app/y/server/go/src/git.eclipse.org/gitroot/paho/org.eclipse.paho.mqtt.golang.git/.git" />
+    </excluded>
+  </library>
+</component>

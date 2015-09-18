@@ -1,7 +1,7 @@
 package controllers
 
 import (
-	"Users/dapeng/Desktop/temp/GoTest/MyApi/models"
+	"MyApi/models"
 	"encoding/json"
 
 	"github.com/astaxie/beego"
