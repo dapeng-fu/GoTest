@@ -4,7 +4,11 @@ go:
   - 1.5
   - tip
 
-before_install:
+go_import_path: github.com/dapeng-fu/GoTest
+
+install:
+  - go get -u github.com/beego/bee
+  - go get -u github.com/astaxie/beego
   - echo "123"
 
 
