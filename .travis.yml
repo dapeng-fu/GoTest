@@ -18,4 +18,5 @@ install:
   - echo "123"
 
 script:
+  - cd $HOME/gopath/src/github.com/dapeng-fu/GoTest/src/MyApi
   - go build
