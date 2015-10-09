@@ -1,20 +1,22 @@
 machine:
-
-  timezone:
-      America/Los_Angeles # Set the timezone
-
-        # Version of ruby to use
-          ruby:
-              version:
-                    1.8.7-p358-falcon-perf
-          golang:
-            version:
-                  1.4
-
+  pre:
+    - curl -o go.tar.gz -sL https://golang.org/dl/go1.4.linux-amd64.tar.gz
+    - sudo rm -rf /usr/local/go
+    - sudo tar -C /usr/local -xzf go.tar.gz
+    - sudo chmod a+w /usr/local/go/src/
 
 dependencies:
+  post:
+    - go get github.com/axw/gocov/gocov
+    - go get github.com/mattn/goveralls
+    - go get github.com/golang/lint/golint
+
+test:
   pre:
-    - go get -u github.com/beego/bee
-    - go get -u github.com/astaxie/beego
-
-
+    - go version
+  override:
+    - test -z "$(gofmt -s -l . | tee /dev/stderr)"
+    - go vet ./...
+    - test -z "$(golint ./... | tee /dev/stderr)"
+    - go test -race -test.v ./...:
+        timeout: 600
