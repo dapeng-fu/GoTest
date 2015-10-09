@@ -8,6 +8,9 @@ env:
 
 go_import_path: github.com/dapeng-fu/GoTest
 
+before_install:
+  - export GOPATH=$GOPATH:$HOME/gopath/src/github.com/dapeng-fu/GoTest/
+
 install:
   - go get -u github.com/beego/bee
   - go get -u github.com/astaxie/beego
