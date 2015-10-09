@@ -4,6 +4,8 @@ machine:
     - sudo rm -rf /usr/local/go
     - sudo tar -C /usr/local -xzf go.tar.gz
     - sudo chmod a+w /usr/local/go/src/
+  xcode:
+    version: "7.0"
 
 dependencies:
   post:
@@ -15,3 +17,10 @@ test:
     - go version
     - pwd
     - echo $GOPATH
+
+deployment:
+  production:
+    branch: production
+    commands:
+      - cd $HOME/GoTest/src/MyApi
+      - go build
