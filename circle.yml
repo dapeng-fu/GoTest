@@ -7,16 +7,11 @@ machine:
 
 dependencies:
   post:
-    - go get github.com/axw/gocov/gocov
-    - go get github.com/mattn/goveralls
-    - go get github.com/golang/lint/golint
+    - go get github.com/beego/bee
+    - go get github.com/astaxie/beego
 
 test:
   pre:
     - go version
-  override:
-    - test -z "$(gofmt -s -l . | tee /dev/stderr)"
-    - go vet ./...
-    - test -z "$(golint ./... | tee /dev/stderr)"
-    - go test -race -test.v ./...:
-        timeout: 600
+    - pwd
+    - echo $GOPATH
