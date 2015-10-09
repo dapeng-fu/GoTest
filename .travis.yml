@@ -6,10 +6,11 @@ go:
 env:
     - GIMME_OS=linux GIMME_ARCH=amd64
 
-go_import_path: github.com/dapeng-fu/GoTest
+#go_import_path: github.com/dapeng-fu/GoTest
 
 before_install:
   - export GOPATH=$GOPATH:$HOME/gopath/src/github.com/dapeng-fu/GoTest/
+  - echo $GOPATH
 
 install:
   - go get -u github.com/beego/bee
