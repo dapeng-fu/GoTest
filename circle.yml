@@ -6,6 +6,8 @@ machine:
     - sudo chmod a+w /usr/local/go/src/
   xcode:
     version: "7.0"
+  environment:
+    GOPATH: $GOPATH:$HOME/GoTest
 
 dependencies:
   post:
@@ -17,6 +19,8 @@ test:
     - go version
     - pwd
     - echo $GOPATH
+    - cd $HOME/GoTest/src/MyApi
+    - go build
 
 deployment:
   production:
